@@ -1,33 +1,25 @@
-# DSA in C#
+# DSA-CSharp
 
-A collection of Data Structures and Algorithms implemented using C#.
+Data structures and algorithms in C# (.NET), with time and space complexity for each.
 
-## Completed Topics
+| Topic | File | Time | Space |
+|---|---|---|---|
+| Binary Search | `Searching/BinarySearch.cs` | O(log n) | O(1) |
+| Bubble Sort | `Sorting/Sorting.cs` | O(n²) | O(1) |
+| Merge Sort | `Sorting/Sorting.cs` | O(n log n) | O(n) |
+| Quick Sort | `Sorting/Sorting.cs` | O(n log n) avg | O(log n) |
+| Linked List | `LinkedList/` | O(n) | O(1) |
+| Stack | `StackQueue/MyStack.cs` | O(1) | O(n) |
+| Queue | `StackQueue/MyQueue.cs` | O(1) | O(n) |
 
-- [x] Linked List
-- [x] Searching Algorithms
-- [x] Binary Search
-- [x] Sorting Algorithms
-- [x] Stack
-- [x] Queue
+## Run
 
-## Next DSA Problems
+```bash
+git clone https://github.com/affansafi1221-byte/<repo-name>.git
+cd <repo-name>
+dotnet run
+```
 
-- [ ] Reverse a Linked List
-- [ ] Detect Cycle in Linked List
-- [ ] Find Middle of Linked List
-- [ ] Two Sum
-- [ ] Valid Parentheses
-- [ ] Merge Two Sorted Arrays
-- [ ] Maximum Subarray Sum
-- [ ] Find Duplicate Number
-- [ ] Reverse a Stack
-- [ ] Implement Queue Using Stack
-- [ ] First Non-Repeating Character
-- [ ] Longest Substring Without Repeating Characters
-- [ ] Merge Intervals
-- [ ] Implement Min Stack
+## Next
 
-## Language
-
-- C#
+Practice problems, binary tree, hash table, graph traversal, xUnit tests.
